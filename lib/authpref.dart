@@ -15,6 +15,8 @@ class AuthPreferences {
     return prefs.getString(_tokenKey);
   }
 
+//
+//
   // Remove token (Logout)
   static Future<void> removeToken() async {
     final prefs = await SharedPreferences.getInstance();
